@@ -36,12 +36,13 @@ Hyperparameters:
 •	Batch Size: 32
 •	Epochs: 10
 
-![image](https://github.com/Orshimon810/Pneumonia-Classification/assets/127754114/617092c2-5207-4f59-aca4-7c14b6da9808)
-![image](https://github.com/Orshimon810/Pneumonia-Classification/assets/127754114/80531aa4-ff16-4bf6-bbc7-734737a891aa)
+![image](https://github.com/Orshimon810/Pneumonia-Classification-by-x-ray/assets/127754114/2fac14bb-7d0f-430c-a3db-687eb37015d0)
+![image](https://github.com/Orshimon810/Pneumonia-Classification-by-x-ray/assets/127754114/536f7562-3f58-4b4a-9673-770018b86302)
 
 
 ## Results on test set:
-<img src="https://github.com/Orshimon810/Pneumonia-Classification/assets/127754114/3efda192-da05-47d2-a0e0-da1c01a34bd2" width="400" height="400">
+<img src="https://github.com/Orshimon810/Pneumonia-Classification-by-x-ray/assets/127754114/f62fd32e-07cb-426e-a007-b0a289ee5c1a" width="400" height = "400">
+
 
 ## Second model architecture (categorial classification):
 The model consists of four convolutional blocks followed by dense layers for multi-class classification of chest X-ray images into normal, bacterial pneumonia, and viral pneumonia categories.
@@ -83,12 +84,12 @@ Dropout is a regularization technique that helps prevent overfitting by randomly
 
 •	Callback: EarlyStopping.
 
-![image](https://github.com/Orshimon810/Pneumonia-Classification/assets/127754114/12e31903-b30f-4b89-98d8-a447808f638c)
-![image](https://github.com/Orshimon810/Pneumonia-Classification/assets/127754114/ee6c562f-d239-4e0d-9e56-d15bdc17aa3e)
+![image](https://github.com/Orshimon810/Pneumonia-Classification-by-x-ray/assets/127754114/9706b4f3-4429-40ce-9c31-0a1ed7e4d2ca)
+![image](https://github.com/Orshimon810/Pneumonia-Classification-by-x-ray/assets/127754114/db25fef5-3ffa-4ece-8c4e-7b4d3bce0ee5)
 
 
 ## Results on test set:
-<img src="https://github.com/Orshimon810/Pneumonia-Classification/assets/127754114/09bb6d4a-cf41-4bdf-9d5a-ba3f4e3f6e60" height="400" width="400">
+<img src="https://github.com/Orshimon810/Pneumonia-Classification-by-x-ray/assets/127754114/bb7bb4a5-7b39-4c6b-80d5-a1f93b4e7148" width="400" height="400">
 
 ## Third Model architecture (autoencoder):
 The data processing prepares chest X-ray images to detect pneumonia as anomalies.
@@ -125,5 +126,5 @@ Validation Data: Validation images are used to evaluate the model's performance 
 Shuffle: The training data is shuffled at the beginning of each epoch to introduce randomness and prevent the model from memorizing the order of the training examples.
 
 ## Examples of constructed images:
-![image](https://github.com/Orshimon810/Pneumonia-Classification/assets/127754114/b0708a00-1e26-446f-a515-619592c22a8b)
+![image](https://github.com/Orshimon810/Pneumonia-Classification-by-x-ray/assets/127754114/3eeaa220-c9a6-488a-9778-a342c0a5e767)
 
